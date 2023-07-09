@@ -8,8 +8,9 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
- return (
+  return (
     <html lang="en">
+      <title>Quotes Library</title>
       <body>
         <div className="main">
           <div className="gradient" />
